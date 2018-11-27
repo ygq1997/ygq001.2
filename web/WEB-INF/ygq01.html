@@ -8,9 +8,9 @@
 <body>
 <h1>文字</h1>   <!--标题名，最多6个-->
 会当凌绝顶<br>一览众山小  <!--br是换行-->
-<big>字体变大</big>
-<del>删除线</del>
-<font color="black" size=""> 字体颜色,大小</font>
+<hr><big>字体变大</big>  <!--hr是下划线换行-->
+<br><del>删除线</del>
+<br><font color="black" size=""> 字体颜色,大小</font>
 <p>
     <strong>一九八四年，庄稼还没收割完，儿子躺在我怀里，睡得那么甜。今晚的露天电影，没时间去看，妻子提醒我，修修缝纫机的踏板。
         明天我要去邻居家再借点钱，孩子哭了一整天了，闹着要吃饼干。蓝色的涤卡上衣，痛往心里钻，蹲在池塘边上，狠狠给了自己两拳。</strong>
@@ -22,15 +22,98 @@
         想一想未来，我老成了一堆旧纸钱，那时的女儿一定，会美得很惊艳，有个爱她的男人，要娶她回家，可想到这些，我却不忍看她一眼。</em>
     <!--em是斜体-->
 </p>
-<h2>合照镇楼</h2>
-<img src="合照.png" alt="">   <!--加内部图片-->
-<h3>美图</h3>
-<img src="http://img1.gtimg.com/gamezone/pics/hv1/44/225/2166/140901569.jpg" alt="">  <!--img 加图片链接，显示图片-->
+合照镇楼
+<br><img src="合照.png" alt="">   <!--加内部图片-->
+<br>海贼王
+<br><img src="http://img1.gtimg.com/gamezone/pics/hv1/44/225/2166/140901569.jpg" alt="">  <!--img 加图片链接，显示图片-->
+
 <a href="http://img1.gtimg.com/gamezone/pics/hv1/44/225/2166/140901569.jpg">百度</a>  <!--a 中间加东西，搜索这个图片（跳转）-->
-<h4>跳页面点图搜索</h4>
-<a href="http://img1.gtimg.com/gamezone/pics/hv1/44/225/2166/140901569.jpg" target="_blank">
+
+<br><a href="http://img1.gtimg.com/gamezone/pics/hv1/44/225/2166/140901569.jpg" target="_blank">
     <img src="http://img1.gtimg.com/gamezone/pics/hv1/44/225/2166/140901569.jpg" >  <!--a 加 target="_blank"  后加东西，代表新建一个页面搜索图片-->
-</a><br>
-<a href="#top">回到顶部</a>  <!--回到顶部标识-->
+</a>
+
+<br><video src="">您的浏览器不支持视频播放</video>
+<br><audio src="">您的浏览器不支持音频播放</audio>
+<hr>
+<h2>表格</h2>
+<p>
+<ol type="A">
+    <li>辽宁</li>
+    <li>吉林</li>
+    <li>黑龙江</li>
+</ol><!--有序列表 ol   无序列表 ul   每一项 li-->
+<ul>
+    <li>水果</li>
+    <li>蔬菜</li>
+    <li>动物</li>
+</ul>
+<!--w3scool自学网站-->
+<table border="1" width="50%">  <!--表格，长度占浏览器长度的%50-->
+   <tr>
+       <th>姓名</th>
+       <th>性别</th>
+       <th>地址</th>
+       <th>手机号</th>
+   </tr>
+    <tr bgcolor="aqua">  <!--bgcolor 背景颜色-->
+        <td>1</td>
+        <td>1</td>
+        <td>1</td>
+        <td>1</td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>2</td>
+        <td>2</td>
+        <td>2</td>
+    </tr>
+    <tr>
+        <td>3</td>
+        <td>3</td>
+        <td>3</td>
+        <td>3</td>
+    </tr>
+    <tr>
+        <td>4</td>
+        <td>4</td>
+        <td>4</td>
+        <td>4</td>
+    </tr>
+</table>
+
+<form action="https://www.baidu.com/s">  <!--表单-->
+    <input type="text" name="wd">  <!--表单的框框-->
+    <input type="submit">          <!--表单的按钮-->
+</form>
+
+<big>
+    <strong>登陆界面</strong>
+</big>
+</strong>
+<form action="YYYY">
+    用户名：<br>
+    <input type="text" name="username"><br>
+    密码：<br>
+    <input type="password" name="pwd"><br>
+    <label>
+        <input type="checkbox">记住我<br>
+    </label>
+    <input type="radio">男    <input type="radio">女<br>
+    <input type="range"><br>  <!--拉进度条-->
+    <input type="date"><br>   <!--选择日期-->
+    <input type="file"><br>   <!--浏览文件-->
+    <input type="number"><br> <!--数字-->
+    <input type="reset"><br>  <!--重置-->
+    <input type="image"><br>  <!--提交-->
+    <input type="submit" value="揍姜楚后登陆">
+</form>   <!--登陆表单，各种属性-->
+
+<div align="center">
+    div可打包调整位置
+</div>
+
+
+<br><a href="#top">回到顶部</a>  <!--回到顶部标识-->
 </body>
 </html>
